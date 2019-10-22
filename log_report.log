@@ -1,0 +1,196 @@
+2019-09-13 10:23:16,818 MainProcess logger_report_log WARNING  Algorithm checktime: 2019-09-13 10:23:16.818233
+2019-09-13 10:23:36,995 MainProcess logger_report_log WARNING  Portfolio:  symbol secType exchange  ... unrealizedPNL realizedPNL accountName
+0     FB     STK           ...       1007.60         0.0   DU1018262
+1    MDB     STK           ...       2827.19        -0.0   DU1018262
+2   NFLX     STK           ...      -6855.81         0.0   DU1018262
+3   TSLA     STK           ...      -2148.41         0.0   DU1018262
+
+[4 rows x 15 columns]
+2019-09-13 10:47:47,855 MainProcess logger_report_log WARNING  Algorithm checktime: 2019-09-13 10:47:47.855414
+2019-09-13 10:48:07,957 MainProcess logger_report_log WARNING  Portfolio:  symbol secType exchange  ... unrealizedPNL realizedPNL accountName
+0     FB     STK           ...       1004.00         0.0   DU1018262
+1    MDB     STK           ...       1983.37        -0.0   DU1018262
+2   NFLX     STK           ...      -6827.42         0.0   DU1018262
+3   TSLA     STK           ...      -2181.23         0.0   DU1018262
+
+[4 rows x 15 columns]
+2019-09-13 10:50:06,943 MainProcess logger_report_log WARNING  Algorithm checktime: 2019-09-13 10:50:06.942998
+2019-09-13 10:50:27,020 MainProcess logger_report_log WARNING  Portfolio:  symbol secType exchange  ... unrealizedPNL realizedPNL accountName
+0     FB     STK           ...       1004.00         0.0   DU1018262
+1    MDB     STK           ...       1983.37        -0.0   DU1018262
+2   NFLX     STK           ...      -6827.42         0.0   DU1018262
+3   TSLA     STK           ...      -2181.23         0.0   DU1018262
+
+[4 rows x 15 columns]
+2019-09-13 10:50:55,195 MainProcess logger_report_log WARNING  marketPrice:Empty DataFrame
+Columns: [tickTypeId, price, executeNow, TickName, TickId, Description, reqId, symbol, secType]
+Index: []
+2019-09-13 10:50:55,196 MainProcess logger_report_log WARNING  marketSize:Empty DataFrame
+Columns: [tickTypeId, volume, TickName, TickId, Description, reqId, symbol, secType]
+Index: []
+2019-09-13 10:50:55,197 MainProcess logger_report_log WARNING  optionInfo:Empty DataFrame
+Columns: [tickTypeId, optionInfo, delta, optPrice, pvDividend, gamma, vega, theta, undPrice, TickName, TickId, Description, reqId, symbol, secType]
+Index: []
+2019-09-13 10:50:55,232 MainProcess logger_report_log WARNING  {'previous_time': '2019-09-13 10:49:55', 'updated_time': '2019-09-13 10:50:55', 'ready_flag': True, 'transactions': [{'order': [{'action': 'SELL', 'orderType': 'LMT', 'totalQuantity': 100, 'transmit': True, 'lmtPrice': 187, 'tif': 'DAY'}], 'symbol': 'FB', 'secType': 'STK', 'currency': 'USD', 'exchange': 'SMART', 'execution_time': '2019-09-13 10:50:55'}]}
+2019-09-13 10:54:01,002 MainProcess logger_report_log WARNING  Algorithm checktime: 2019-09-13 10:54:01.002103
+2019-09-13 10:54:21,066 MainProcess logger_report_log WARNING  Portfolio:  symbol secType exchange  ... unrealizedPNL realizedPNL accountName
+0   NFLX     STK           ...      -6777.83         0.0   DU1018262
+1   TSLA     STK           ...      -2175.82         0.0   DU1018262
+2     FB     STK           ...       1016.60         0.0   DU1018262
+3    MDB     STK           ...       1991.12        -0.0   DU1018262
+
+[4 rows x 15 columns]
+2019-09-13 10:54:49,241 MainProcess logger_report_log WARNING  marketPrice:Empty DataFrame
+Columns: [tickTypeId, price, executeNow, TickName, TickId, Description, reqId, symbol, secType]
+Index: []
+2019-09-13 10:54:49,242 MainProcess logger_report_log WARNING  marketSize:Empty DataFrame
+Columns: [tickTypeId, volume, TickName, TickId, Description, reqId, symbol, secType]
+Index: []
+2019-09-13 10:54:49,242 MainProcess logger_report_log WARNING  optionInfo:Empty DataFrame
+Columns: [tickTypeId, optionInfo, delta, optPrice, pvDividend, gamma, vega, theta, undPrice, TickName, TickId, Description, reqId, symbol, secType]
+Index: []
+2019-09-13 10:54:49,274 MainProcess logger_report_log WARNING  {'previous_time': '2019-09-13 10:53:49', 'updated_time': '2019-09-13 10:54:49', 'ready_flag': True, 'transactions': [{'order': [{'action': 'SELL', 'orderType': 'LMT', 'totalQuantity': 100, 'transmit': True, 'lmtPrice': 187, 'tif': 'DAY'}], 'symbol': 'FB', 'secType': 'STK', 'currency': 'USD', 'exchange': 'SMART', 'execution_time': '2019-09-13 10:54:49'}]}
+2019-09-13 10:57:54,352 MainProcess logger_report_log WARNING  Algorithm checktime: 2019-09-13 10:57:54.352198
+2019-09-13 10:58:14,416 MainProcess logger_report_log WARNING  Portfolio:  symbol secType exchange  ... unrealizedPNL realizedPNL accountName
+0   NFLX     STK           ...      -6808.34         0.0   DU1018262
+1   TSLA     STK           ...      -2129.67         0.0   DU1018262
+2     FB     STK           ...          0.00      1004.6   DU1018262
+3    MDB     STK           ...       1419.61        -0.0   DU1018262
+
+[4 rows x 15 columns]
+2019-09-13 10:58:42,578 MainProcess logger_report_log WARNING  marketPrice:Empty DataFrame
+Columns: [tickTypeId, price, executeNow, TickName, TickId, Description, reqId, symbol, secType]
+Index: []
+2019-09-13 10:58:42,579 MainProcess logger_report_log WARNING  marketSize:Empty DataFrame
+Columns: [tickTypeId, volume, TickName, TickId, Description, reqId, symbol, secType]
+Index: []
+2019-09-13 10:58:42,580 MainProcess logger_report_log WARNING  optionInfo:Empty DataFrame
+Columns: [tickTypeId, optionInfo, delta, optPrice, pvDividend, gamma, vega, theta, undPrice, TickName, TickId, Description, reqId, symbol, secType]
+Index: []
+2019-09-13 10:58:42,611 MainProcess logger_report_log WARNING  {'previous_time': '2019-09-13 10:57:42', 'updated_time': '2019-09-13 10:58:42', 'ready_flag': True, 'transactions': [{'order': [{'action': 'SELL', 'orderType': 'LMT', 'totalQuantity': 0, 'transmit': True, 'lmtPrice': 187, 'tif': 'DAY'}], 'symbol': 'FB', 'secType': 'STK', 'currency': 'USD', 'exchange': 'SMART', 'execution_time': '2019-09-13 10:58:42'}]}
+2019-09-13 11:01:47,681 MainProcess logger_report_log WARNING  Algorithm checktime: 2019-09-13 11:01:47.680557
+2019-09-13 11:02:07,864 MainProcess logger_report_log WARNING  Portfolio:  symbol secType exchange  ... unrealizedPNL realizedPNL accountName
+0   NFLX     STK           ...      -6760.49         0.0   DU1018262
+1   TSLA     STK           ...      -2100.22         0.0   DU1018262
+2     FB     STK           ...          0.00      1004.6   DU1018262
+3    MDB     STK           ...       1393.23        -0.0   DU1018262
+
+[4 rows x 15 columns]
+2019-09-13 11:03:01,460 MainProcess logger_report_log WARNING  marketPrice:Empty DataFrame
+Columns: [tickTypeId, price, executeNow, TickName, TickId, Description, reqId, symbol, secType]
+Index: []
+2019-09-13 11:03:01,461 MainProcess logger_report_log WARNING  marketSize:Empty DataFrame
+Columns: [tickTypeId, volume, TickName, TickId, Description, reqId, symbol, secType]
+Index: []
+2019-09-13 11:03:01,461 MainProcess logger_report_log WARNING  optionInfo:Empty DataFrame
+Columns: [tickTypeId, optionInfo, delta, optPrice, pvDividend, gamma, vega, theta, undPrice, TickName, TickId, Description, reqId, symbol, secType]
+Index: []
+2019-09-13 11:03:01,492 MainProcess logger_report_log WARNING  {'previous_time': '2019-09-13 11:02:01', 'updated_time': '2019-09-13 11:03:01', 'ready_flag': True, 'transactions': [{'order': [{'action': 'SELL', 'orderType': 'LMT', 'totalQuantity': 0, 'transmit': True, 'lmtPrice': 187, 'tif': 'DAY'}], 'symbol': 'FB', 'secType': 'STK', 'currency': 'USD', 'exchange': 'SMART', 'execution_time': '2019-09-13 11:03:01'}]}
+2019-09-13 11:06:17,258 MainProcess logger_report_log WARNING  Algorithm checktime: 2019-09-13 11:06:17.257394
+2019-09-13 11:06:37,344 MainProcess logger_report_log WARNING  Portfolio:  symbol secType exchange  ... unrealizedPNL realizedPNL accountName
+0   NFLX     STK           ...      -6800.88         0.0   DU1018262
+1   TSLA     STK           ...      -2098.75         0.0   DU1018262
+2     FB     STK           ...          0.00      1004.6   DU1018262
+3    MDB     STK           ...       1465.88        -0.0   DU1018262
+
+[4 rows x 15 columns]
+2019-09-13 11:07:05,563 MainProcess logger_report_log WARNING  marketPrice:Empty DataFrame
+Columns: [tickTypeId, price, executeNow, TickName, TickId, Description, reqId, symbol, secType]
+Index: []
+2019-09-13 11:07:05,565 MainProcess logger_report_log WARNING  marketSize:Empty DataFrame
+Columns: [tickTypeId, volume, TickName, TickId, Description, reqId, symbol, secType]
+Index: []
+2019-09-13 11:07:05,566 MainProcess logger_report_log WARNING  optionInfo:Empty DataFrame
+Columns: [tickTypeId, optionInfo, delta, optPrice, pvDividend, gamma, vega, theta, undPrice, TickName, TickId, Description, reqId, symbol, secType]
+Index: []
+2019-09-13 11:07:05,599 MainProcess logger_report_log WARNING  {'previous_time': '2019-09-13 11:06:05', 'updated_time': '2019-09-13 11:07:05', 'ready_flag': True, 'transactions': [{'order': [{'action': 'SELL', 'orderType': 'LMT', 'totalQuantity': 0, 'transmit': True, 'lmtPrice': 187, 'tif': 'DAY'}], 'symbol': 'FB', 'secType': 'STK', 'currency': 'USD', 'exchange': 'SMART', 'execution_time': '2019-09-13 11:07:05'}]}
+2019-09-13 11:10:10,654 MainProcess logger_report_log WARNING  Algorithm checktime: 2019-09-13 11:10:10.654822
+2019-09-13 11:10:30,715 MainProcess logger_report_log WARNING  Portfolio:  symbol secType exchange  ... unrealizedPNL realizedPNL accountName
+0   NFLX     STK           ...      -6758.17         0.0   DU1018262
+1   TSLA     STK           ...      -2114.67         0.0   DU1018262
+2     FB     STK           ...          0.00      1004.6   DU1018262
+3    MDB     STK           ...       1670.14        -0.0   DU1018262
+
+[4 rows x 15 columns]
+2019-09-13 11:10:58,843 MainProcess logger_report_log WARNING  marketPrice:Empty DataFrame
+Columns: [tickTypeId, price, executeNow, TickName, TickId, Description, reqId, symbol, secType]
+Index: []
+2019-09-13 11:10:58,845 MainProcess logger_report_log WARNING  marketSize:Empty DataFrame
+Columns: [tickTypeId, volume, TickName, TickId, Description, reqId, symbol, secType]
+Index: []
+2019-09-13 11:10:58,845 MainProcess logger_report_log WARNING  optionInfo:Empty DataFrame
+Columns: [tickTypeId, optionInfo, delta, optPrice, pvDividend, gamma, vega, theta, undPrice, TickName, TickId, Description, reqId, symbol, secType]
+Index: []
+2019-09-13 11:10:58,873 MainProcess logger_report_log WARNING  {'previous_time': '2019-09-13 11:09:58', 'updated_time': '2019-09-13 11:10:58', 'ready_flag': True, 'transactions': [{'order': [{'action': 'SELL', 'orderType': 'LMT', 'totalQuantity': 0, 'transmit': True, 'lmtPrice': 187, 'tif': 'DAY'}], 'symbol': 'FB', 'secType': 'STK', 'currency': 'USD', 'exchange': 'SMART', 'execution_time': '2019-09-13 11:10:58'}]}
+2019-09-13 11:14:03,922 MainProcess logger_report_log WARNING  Algorithm checktime: 2019-09-13 11:14:03.922133
+2019-09-13 11:14:24,012 MainProcess logger_report_log WARNING  Portfolio:  symbol secType exchange  ... unrealizedPNL realizedPNL accountName
+0   NFLX     STK           ...      -6778.70         0.0   DU1018262
+1   TSLA     STK           ...      -2125.87         0.0   DU1018262
+2     FB     STK           ...          0.00      1004.6   DU1018262
+3    MDB     STK           ...       1506.06        -0.0   DU1018262
+
+[4 rows x 15 columns]
+2019-09-13 11:14:52,177 MainProcess logger_report_log WARNING  marketPrice:Empty DataFrame
+Columns: [tickTypeId, price, executeNow, TickName, TickId, Description, reqId, symbol, secType]
+Index: []
+2019-09-13 11:14:52,179 MainProcess logger_report_log WARNING  marketSize:Empty DataFrame
+Columns: [tickTypeId, volume, TickName, TickId, Description, reqId, symbol, secType]
+Index: []
+2019-09-13 11:14:52,179 MainProcess logger_report_log WARNING  optionInfo:Empty DataFrame
+Columns: [tickTypeId, optionInfo, delta, optPrice, pvDividend, gamma, vega, theta, undPrice, TickName, TickId, Description, reqId, symbol, secType]
+Index: []
+2019-09-13 11:14:52,212 MainProcess logger_report_log WARNING  {'previous_time': '2019-09-13 11:13:52', 'updated_time': '2019-09-13 11:14:52', 'ready_flag': True, 'transactions': [{'order': [{'action': 'SELL', 'orderType': 'LMT', 'totalQuantity': 0, 'transmit': True, 'lmtPrice': 187, 'tif': 'DAY'}], 'symbol': 'FB', 'secType': 'STK', 'currency': 'USD', 'exchange': 'SMART', 'execution_time': '2019-09-13 11:14:52'}]}
+2019-09-13 11:17:57,270 MainProcess logger_report_log WARNING  Algorithm checktime: 2019-09-13 11:17:57.270728
+2019-09-13 11:31:34,173 MainProcess logger_report_log WARNING  Portfolio:  symbol secType exchange  ... unrealizedPNL realizedPNL accountName
+0   NFLX     STK           ...      -6777.40         0.0   DU1018262
+1   TSLA     STK           ...      -2143.58         0.0   DU1018262
+2     FB     STK           ...          0.00      1004.6   DU1018262
+3    MDB     STK           ...       1427.98        -0.0   DU1018262
+
+[4 rows x 15 columns]
+2019-09-13 11:32:02,314 MainProcess logger_report_log WARNING  marketPrice:Empty DataFrame
+Columns: [tickTypeId, price, executeNow, TickName, TickId, Description, reqId, symbol, secType]
+Index: []
+2019-09-13 11:32:02,316 MainProcess logger_report_log WARNING  marketSize:Empty DataFrame
+Columns: [tickTypeId, volume, TickName, TickId, Description, reqId, symbol, secType]
+Index: []
+2019-09-13 11:32:02,317 MainProcess logger_report_log WARNING  optionInfo:Empty DataFrame
+Columns: [tickTypeId, optionInfo, delta, optPrice, pvDividend, gamma, vega, theta, undPrice, TickName, TickId, Description, reqId, symbol, secType]
+Index: []
+2019-09-13 11:32:02,356 MainProcess logger_report_log WARNING  {'previous_time': '2019-09-13 11:31:02', 'updated_time': '2019-09-13 11:32:02', 'ready_flag': True, 'transactions': [{'order': [{'action': 'SELL', 'orderType': 'LMT', 'totalQuantity': 0, 'transmit': True, 'lmtPrice': 187, 'tif': 'DAY'}], 'symbol': 'FB', 'secType': 'STK', 'currency': 'USD', 'exchange': 'SMART', 'execution_time': '2019-09-13 11:32:02'}]}
+2019-09-13 11:35:07,447 MainProcess logger_report_log WARNING  Algorithm checktime: 2019-09-13 11:35:07.447456
+2019-09-13 11:35:27,528 MainProcess logger_report_log WARNING  Portfolio:  symbol secType exchange  ... unrealizedPNL realizedPNL accountName
+0     FB     STK           ...          0.00      1004.6   DU1018262
+1    MDB     STK           ...       1396.74        -0.0   DU1018262
+2   NFLX     STK           ...      -6816.45         0.0   DU1018262
+3   TSLA     STK           ...      -2206.63         0.0   DU1018262
+
+[4 rows x 15 columns]
+2019-09-13 11:35:55,735 MainProcess logger_report_log WARNING  marketPrice:Empty DataFrame
+Columns: [tickTypeId, price, executeNow, TickName, TickId, Description, reqId, symbol, secType]
+Index: []
+2019-09-13 11:35:55,736 MainProcess logger_report_log WARNING  marketSize:Empty DataFrame
+Columns: [tickTypeId, volume, TickName, TickId, Description, reqId, symbol, secType]
+Index: []
+2019-09-13 11:35:55,736 MainProcess logger_report_log WARNING  optionInfo:Empty DataFrame
+Columns: [tickTypeId, optionInfo, delta, optPrice, pvDividend, gamma, vega, theta, undPrice, TickName, TickId, Description, reqId, symbol, secType]
+Index: []
+2019-09-13 11:35:55,766 MainProcess logger_report_log WARNING  {'previous_time': '2019-09-13 11:34:55', 'updated_time': '2019-09-13 11:35:55', 'ready_flag': True, 'transactions': [{'order': [{'action': 'SELL', 'orderType': 'LMT', 'totalQuantity': 0, 'transmit': True, 'lmtPrice': 187, 'tif': 'DAY'}], 'symbol': 'FB', 'secType': 'STK', 'currency': 'USD', 'exchange': 'SMART', 'execution_time': '2019-09-13 11:35:55'}]}
+2019-09-13 11:39:00,833 MainProcess logger_report_log WARNING  Algorithm checktime: 2019-09-13 11:39:00.832917
+2019-09-13 11:39:20,892 MainProcess logger_report_log WARNING  Portfolio:  symbol secType exchange  ... unrealizedPNL realizedPNL accountName
+0   NFLX     STK           ...      -6821.00         0.0   DU1018262
+1   TSLA     STK           ...      -2164.15         0.0   DU1018262
+2     FB     STK           ...          0.00      1004.6   DU1018262
+3    MDB     STK           ...       1426.79        -0.0   DU1018262
+
+[4 rows x 15 columns]
+2019-09-13 11:39:49,039 MainProcess logger_report_log WARNING  marketPrice:Empty DataFrame
+Columns: [tickTypeId, price, executeNow, TickName, TickId, Description, reqId, symbol, secType]
+Index: []
+2019-09-13 11:39:49,040 MainProcess logger_report_log WARNING  marketSize:Empty DataFrame
+Columns: [tickTypeId, volume, TickName, TickId, Description, reqId, symbol, secType]
+Index: []
+2019-09-13 11:39:49,040 MainProcess logger_report_log WARNING  optionInfo:Empty DataFrame
+Columns: [tickTypeId, optionInfo, delta, optPrice, pvDividend, gamma, vega, theta, undPrice, TickName, TickId, Description, reqId, symbol, secType]
+Index: []
+2019-09-13 11:39:49,070 MainProcess logger_report_log WARNING  {'previous_time': '2019-09-13 11:38:49', 'updated_time': '2019-09-13 11:39:49', 'ready_flag': True, 'transactions': [{'order': [{'action': 'SELL', 'orderType': 'LMT', 'totalQuantity': 0, 'transmit': True, 'lmtPrice': 187, 'tif': 'DAY'}], 'symbol': 'FB', 'secType': 'STK', 'currency': 'USD', 'exchange': 'SMART', 'execution_time': '2019-09-13 11:39:49'}]}

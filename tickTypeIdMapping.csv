@@ -1,0 +1,91 @@
+TickName,TickId,Description
+Bid Size,0,Number of contracts or lots offered at the bid price.
+Bid Price,1,Highest priced bid for the contract.
+Ask Price,2,Lowest price offer on the contract.
+Ask Size,3,Number of contracts or lots offered at the ask price.
+Last Price,4,Last price at which the contract traded (does not include some trades in RTVolume).
+Last Size,5,Number of contracts or lots traded at the last price.
+High,6,High price for the day.
+Low,7,Low price for the day.
+Volume,8,Trading volume for the day for the selected contract (US Stocks: multiplier 100).
+Close Price,9,"The last available closing price for the previous day. For US Equities, we use corporate action processing to get the closing price, so the close price is adjusted to reflect forward and reverse splits and cash and stock dividends."
+Bid Option Computation,10,Computed Greeks and implied volatility based on the underlying stock price and the option bid price. See Option Greeks
+Ask Option Computation,11,Computed Greeks and implied volatility based on the underlying stock price and the option ask price. See Option Greeks
+Last Option Computation,12,Computed Greeks and implied volatility based on the underlying stock price and the option last traded price. See Option Greeks
+Model Option Computation,13,Computed Greeks and implied volatility based on the underlying stock price and the option model price. Correspond to greeks shown in TWS. See Option Greeks
+Open Tick,14,Current session's opening price. Before open will refer to previous day. The official opening price requires a market data subscription to the native exchange of the instrument.
+Low 13 Weeks,15,Lowest price for the last 13 weeks. For stocks only.
+High 13 Weeks,16,Highest price for the last 13 weeks. For stocks only.
+Low 26 Weeks,17,Lowest price for the last 26 weeks. For stocks only.
+High 26 Weeks,18,Highest price for the last 26 weeks. For stocks only.
+Low 52 Weeks,19,Lowest price for the last 52 weeks. For stocks only.
+High 52 Weeks,20,Highest price for the last 52 weeks. For stocks only.
+Average Volume,21,The average daily trading volume over 90 days. Multiplier of 100. For stocks only.
+Open Interest,22,"(Deprecated, not currently in use) Total number of options that are not closed."
+Option Historical Volatility,23,The 30-day historical volatility (currently for stocks).
+Option Implied Volatility,24,"A prediction of how volatile an underlying will be in the future. The IB 30-day volatility is the at-market volatility estimated for a maturity thirty calendar days forward of the current trading day, and is based on option prices from two consecutive expiration months."
+Option Bid Exchange,25,Not Used.
+Option Ask Exchange,26,Not Used.
+Option Call Open Interest,27,Call option open interest.
+Option Put Open Interest,28,Put option open interest.
+Option Call Volume,29,Call option volume for the trading day.
+Option Put Volume,30,Put option volume for the trading day.
+Index Future Premium,31,The number of points that the index is over the cash index.
+Bid Exchange,32,"For stock and options, identifies the exchange(s) posting the bid price. See Component Exchanges"
+Ask Exchange,33,"For stock and options, identifies the exchange(s) posting the ask price. See Component Exchanges"
+Auction Volume,34,The number of shares that would trade if no new orders were received and the auction were held now.
+Auction Price,35,The price at which the auction would occur if no new orders were received and the auction were held now- the indicative price for the auction. Typically received after Auction imbalance (tick type 36)
+Auction Imbalance,36,The number of unmatched shares for the next auction; returns how many more shares are on one side of the auction than the other. Typically received after Auction Volume (tick type 34)
+Mark Price,37,"The mark price is the current theoretical calculated value of an instrument. Since it is a calculated value, it will typically have many digits of precision."
+Bid EFP Computation,38,Computed EFP bid price
+Ask EFP Computation,39,Computed EFP ask price
+Last EFP Computation,40,Computed EFP last price
+Open EFP Computation,41,Computed EFP open price
+High EFP Computation,42,Computed high EFP traded price for the day
+Low EFP Computation,43,Computed low EFP traded price for the day
+Close EFP Computation,44,Computed closing EFP price for previous day
+Last Timestamp,45,Time of the last trade (in UNIX time).
+Shortable,46,Describes the level of difficulty with which the contract can be sold short. See Shortable
+Fundamental Ratios,47,Provides the available Fundamental Ratios. See Fundamental Ratios 
+RT Volume (Time & Sales),48,"Last trade details (Including both ""Last"" and ""Unreportable Last"" trades). See RT Volume"
+Halted,49,Indicates if a contract is halted. See Halted
+Bid Yield,50,Implied yield of the bond if it is purchased at the current bid.
+Ask Yield,51,Implied yield of the bond if it is purchased at the current ask.
+Last Yield,52,Implied yield of the bond if it is purchased at the last price.
+Custom Option Computation,53,Greek values are based off a user customized price.
+Trade Count,54,Trade count for the day.
+Trade Rate,55,Trade count per minute.
+Volume Rate,56,Volume per minute.
+Last RTH Trade,57,Last Regular Trading Hours traded price.
+RT Historical Volatility,58,30-day real time historical volatility.
+IB Dividends,59,Contract's dividends. See IB Dividends
+Bond Factor Multiplier,60,Not currently implemented.
+Regulatory Imbalance,61,The imbalance that is used to determine which at-the-open or at-the-close orders can be entered following the publishing of the regulatory imbalance.
+News,62,Contract's news feed.
+Short-Term Volume 3 Minutes,63,The past three minutes volume. Interpolation may be applied. For stocks only.
+Short-Term Volume 5 Minutes,64,The past five minutes volume. Interpolation may be applied. For stocks only.
+Short-Term Volume 10 Minutes,65,The past ten minutes volume. Interpolation may be applied. For stocks only.
+Delayed Bid,66,Delayed bid price. See Market Data Types
+Delayed Ask,67,Delayed ask price. See Market Data Types
+Delayed Last,68,Delayed last traded price. See Market Data Types
+Delayed Bid Size,69,Delayed bid size. See Market Data Types
+Delayed Ask Size,70,Delayed ask size. See Market Data Types
+Delayed Last Size,71,Delayed last size. See Market Data Types
+Delayed High Price,72,Delayed highest price of the day. See Market Data Types
+Delayed Low Price,73,Delayed lowest price of the day. See Market Data Types
+Delayed Volume,74,Delayed traded volume of the day. See Market Data Types
+Delayed Close,75,The prior day's closing price.
+Delayed Open,76,Not currently available
+RT Trade Volume,77,"Last trade details that excludes ""Unreportable Trades"". See RT Trade Volume"
+Creditman mark price,78,Not currently available
+Creditman slow mark price,79,Slower mark price update used in system calculations
+Delayed Bid Option,80,Computed greeks based on delayed bid price. See Market Data Types and Option Greeks
+Delayed Ask Option,81,Computed greeks based on delayed ask price. See Market Data Types and Option Greeks
+Delayed Last Option,82,Computed greeks based on delayed last price. See Market Data Types and Option Greeks
+Delayed Model Option,83,Computed Greeks and model's implied volatility based on delayed stock and option prices.
+Last Exchange,84,Exchange of last traded price
+Last Regulatory Time,85,Timestamp (in Unix ms time) of last trade returned with regulatory snapshot
+Futures Open Interest,86,Total number of outstanding futures contracts (TWS v965+). *HSI open interest requested with generic tick 101
+Average Option Volume,87,Average volume of the corresponding option contracts(TWS Build 970+ is required)
+Delayed Last Timestamp,88,Delayed time of the last trade (in UNIX time) (TWS Build 970+ is required)
+Shortable Shares,89,Number of shares available to short (TWS Build 974+ is required)

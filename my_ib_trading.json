@@ -1,0 +1,24 @@
+{
+    "previous_time": "2019-09-13 11:39:54",
+    "updated_time": "2019-09-13 11:39:49",
+    "ready_flag": false,
+    "transactions": [
+        {
+            "order": [
+                {
+                    "action": "SELL",
+                    "orderType": "LMT",
+                    "totalQuantity": 0,
+                    "transmit": true,
+                    "lmtPrice": 187,
+                    "tif": "DAY"
+                }
+            ],
+            "symbol": "FB",
+            "secType": "STK",
+            "currency": "USD",
+            "exchange": "SMART",
+            "execution_time": "2019-09-13 11:39:49"
+        }
+    ]
+}

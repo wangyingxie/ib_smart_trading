@@ -1,0 +1,37 @@
+2019-09-13 10:23:16,748 MainProcess logger_server_log INFO     Check server
+2019-09-13 10:23:16,815 MainProcess logger_server_log INFO     Log server info now is 2019-09-13 10:23:16.815254
+2019-09-13 10:47:47,847 MainProcess logger_server_log INFO     Check server
+2019-09-13 10:47:47,854 MainProcess logger_server_log INFO     Log server info now is 2019-09-13 10:47:47.854359
+2019-09-13 10:50:06,937 MainProcess logger_server_log INFO     Check server
+2019-09-13 10:50:06,941 MainProcess logger_server_log INFO     Log server info now is 2019-09-13 10:50:06.941870
+2019-09-13 10:51:00,240 MainProcess logger_server_log WARNING  Getting full contract details from the server... 
+2019-09-13 10:51:01,005 MainProcess logger_server_log INFO     Using order id of 193
+2019-09-13 10:51:01,006 MainProcess logger_server_log WARNING  STK_FB_with quantity of 100 has been completed at price 187
+2019-09-13 10:51:01,778 MainProcess logger_server_log WARNING  orderStatus:[193, 'PreSubmitted', 0.0, 0.0, 1859413187, 100.0, 0, 0.0, 123, 'locate'] 
+2019-09-13 10:51:02,026 MainProcess logger_server_log WARNING  orderStatus:[193, 'Filled', 100.0, 187.26, 1859413187, 0.0, 0, 187.26, 123, ''] 
+2019-09-13 10:51:02,030 MainProcess logger_server_log WARNING  orderStatus:[193, 'Filled', 100.0, 187.26, 1859413187, 0.0, 0, 187.26, 123, ''] 
+2019-09-13 10:54:54,277 MainProcess logger_server_log WARNING  Getting full contract details from the server... 
+2019-09-13 10:58:47,621 MainProcess logger_server_log WARNING  Getting full contract details from the server... 
+2019-09-13 10:58:47,679 MainProcess logger_server_log INFO     Using order id of 194
+2019-09-13 10:58:47,679 MainProcess logger_server_log WARNING  STK_FB_with quantity of 0 has been completed at price 187
+2019-09-13 11:03:06,499 MainProcess logger_server_log WARNING  Getting full contract details from the server... 
+2019-09-13 11:03:17,253 MainProcess logger_server_log INFO     Using order id of 194
+2019-09-13 11:03:17,253 MainProcess logger_server_log WARNING  STK_FB_with quantity of 0 has been completed at price 187
+2019-09-13 11:07:10,607 MainProcess logger_server_log WARNING  Getting full contract details from the server... 
+2019-09-13 11:07:10,654 MainProcess logger_server_log INFO     Using order id of 194
+2019-09-13 11:07:10,655 MainProcess logger_server_log WARNING  STK_FB_with quantity of 0 has been completed at price 187
+2019-09-13 11:11:03,879 MainProcess logger_server_log WARNING  Getting full contract details from the server... 
+2019-09-13 11:11:03,925 MainProcess logger_server_log INFO     Using order id of 194
+2019-09-13 11:11:03,925 MainProcess logger_server_log WARNING  STK_FB_with quantity of 0 has been completed at price 187
+2019-09-13 11:14:57,225 MainProcess logger_server_log WARNING  Getting full contract details from the server... 
+2019-09-13 11:14:57,270 MainProcess logger_server_log INFO     Using order id of 194
+2019-09-13 11:14:57,271 MainProcess logger_server_log WARNING  STK_FB_with quantity of 0 has been completed at price 187
+2019-09-13 11:32:07,363 MainProcess logger_server_log WARNING  Getting full contract details from the server... 
+2019-09-13 11:32:07,439 MainProcess logger_server_log INFO     Using order id of 194
+2019-09-13 11:32:07,439 MainProcess logger_server_log WARNING  STK_FB_with quantity of 0 has been completed at price 187
+2019-09-13 11:36:00,770 MainProcess logger_server_log WARNING  Getting full contract details from the server... 
+2019-09-13 11:36:00,828 MainProcess logger_server_log INFO     Using order id of 194
+2019-09-13 11:36:00,829 MainProcess logger_server_log WARNING  STK_FB_with quantity of 0 has been completed at price 187
+2019-09-13 11:39:54,076 MainProcess logger_server_log WARNING  Getting full contract details from the server... 
+2019-09-13 11:39:54,225 MainProcess logger_server_log INFO     Using order id of 194
+2019-09-13 11:39:54,226 MainProcess logger_server_log WARNING  STK_FB_with quantity of 0 has been completed at price 187
